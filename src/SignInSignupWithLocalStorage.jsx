@@ -58,6 +58,7 @@ function SignInSignupWithLocalStorage() {
         </div>
       ) : (
         <div className="container">
+           <div class="brand-title">Sign Up Page</div>
           <div className="input_space">
             <input placeholder="Name" type="text" ref={name} />
           </div>
